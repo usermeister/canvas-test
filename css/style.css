@@ -1,0 +1,34 @@
+body {
+	font-family: "Helvetica World", Helvetica, Arial, sans-serif;
+	background-color: #CFC;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	line-height: 1.75em;
+}
+
+h1 {
+	margin-left: -15px;
+}
+
+#main_column {
+	width: 75%;
+	padding: 2.5% 5% 2.5% 5% ;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #DFD;
+	text-align: center;
+	
+}
+
+#projects {
+	background-color: #EFE;
+	margin: 0.5%;
+	padding: 0.25% 5% 0.25% 5%;
+	text-align: left;
+}
+
+.canvas {
+	background-color: #CFC;
+	/*margin:2.5%;*/
+	/*border: 2px solid #AEA;*/
+}
