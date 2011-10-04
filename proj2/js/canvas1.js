@@ -13,9 +13,6 @@ var tileHeght;
 
 // TODO: OOP
 
-/* ******************************
-		OBJECTS & RESOURCES
-/* ****************************** */
 
 var boat;  // TODO: spritesheet animations http://codeutopia.net/blog/2009/08/21/using-canvas-to-do-bitmap-sprite-animation-in-javascript/
 var boatL;
@@ -44,7 +41,7 @@ var engSnd; // TODO: mute sounds option
 var screamSnd;
 
 // Input
-var keys = new Array();
+var keys = [];
 window.addEventListener('keydown',keyDown,true);
 window.addEventListener('keyup',keyUp,true);
 function keyDown(evt)
